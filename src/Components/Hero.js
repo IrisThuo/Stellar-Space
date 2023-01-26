@@ -3,9 +3,9 @@ function Hero() {
   return (
     <div className="hero-image">
       <div className="hero-text">
-        <h1 style={{ fontSize: "50px" }}>I am John Doe</h1>
-        <p>Nasa Images</p>
-        <button>View Image</button>
+        <h1 style={{ fontSize: "50px" }}></h1>
+        <p>NASA INFORMATION</p>
+        <button>View</button>
       </div>
     </div>
   );
