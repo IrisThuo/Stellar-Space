@@ -1,25 +1,18 @@
-import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import Header from "./Components/Header";
 import AboutMars from "./views/AboutMars";
 import Home from "./views/Home";
-import MarsRovers from "./views/MarsRovers";
 
 function App() {
-  const [isShowLogin, setIsShowLogin] = useState(false);
-
-  const handleLoginClick = () => {
-    setIsShowLogin((isShowLogin) => !isShowLogin);
-  };
-
   return (
     <div className="App">
-      <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<AboutMars/>} />
       </Routes>
-
-      <footer className="footer"></footer>
+      {/* <Navbar/>
+      <Footer/>
+      {/* <MarsRovers/> */}
+      {/* <AboutMars/> */} 
     </div>
   );
 }
