@@ -17,8 +17,6 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/aboutMars" element={<AboutMars />} />
-        <Route path="/MarsRovers" element={<MarsRovers/>} />
       </Routes>
 
       <footer className="footer"></footer>
