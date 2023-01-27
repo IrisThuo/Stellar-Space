@@ -1,6 +1,8 @@
  import { Route, Routes } from "react-router-dom";
 import AboutMars from "./views/AboutMars";
 import Home from "./views/Home";
+import ObjectsNearEarth from "./views/ObjectsNearEarth";
+import "./App.css"
 
 function App() {
   return (
